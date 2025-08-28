@@ -1,0 +1,60 @@
+# Pliki użytkownika
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Pliki kompilacji
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+bin/
+obj/
+log/
+
+# Pliki Visual Studio
+.vs/
+.vscode/
+
+# Pliki testowe
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Pliki konfiguracji
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+# Pliki NuGet
+*.nupkg
+packages/
+!packages/build/
+
+# Pliki publikacji
+publish/
+*.publish.xml
+*.azurePubxml
+*.pubxml
+*.publishproj
+
+# Pliki generowane przez ASP.NET Core
+wwwroot/
+node_modules/
+bower_components/
+
+# Pliki tymczasowe
+*.tmp
+*.cache
+*.pidb
+*.svclog
+
+# Pliki logów
+*.log
+logs/
+
+# Pliki Docker
+docker-compose.override.yml
