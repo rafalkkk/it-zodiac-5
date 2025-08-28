@@ -22,9 +22,12 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - name: List files before downloading the code
+        run: ls -lR
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
-
+      - name: List files after downloading the code
+        run: ls -lR
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
